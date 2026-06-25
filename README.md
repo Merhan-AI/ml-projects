@@ -10,6 +10,12 @@ using Python and scikit-learn.
 - Algorithm: Linear Regression
 - Tools: Python, NumPy, scikit-learn
 
+### 2. Pass/Fail Prediction — Logistic Regression
+- Predicts whether a student passes or fails
+- Based on hours of study
+- Algorithm: Logistic Regression
+- Tools: Python, NumPy, scikit-learn
+
 ## Skills Used
 - Python
 - NumPy
