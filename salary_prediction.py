@@ -8,3 +8,5 @@ prediction = model.predict([[9]])
 print(prediction)
 print(model.coef_)
 print(model.intercept_)
+from sklearn.metrics import r2_score
+print(r2_score(Salary, model.predict(Experience)))
