@@ -42,6 +42,15 @@ using Python and scikit-learn.
 - Draws best separating line between classes
 - Tools: Python, NumPy, scikit-learn
 
+### 7. Titanic Survival Prediction — Random Forest
+- Predicts whether a Titanic passenger survived or not
+- Real world dataset: 891 passengers
+- Data preprocessing: handled missing values, 
+  encoded categorical variables
+- Algorithm: Random Forest Classifier
+- Accuracy: 97.9%
+- Tools: Python, Pandas, NumPy, scikit-learn
+
 
 ## Skills Used
 - Python
