@@ -35,6 +35,14 @@ using Python and scikit-learn.
 - Algorithm: K-Nearest Neighbors (K=5)
 - Tools: Python, NumPy, scikit-learn
 
+### 6. Loan Approval Prediction — SVM
+- Predicts whether a loan gets approved or rejected
+- Based on income and credit score
+- Algorithm: Support Vector Machine (SVC)
+- Draws best separating line between classes
+- Tools: Python, NumPy, scikit-learn
+
+
 ## Skills Used
 - Python
 - NumPy
