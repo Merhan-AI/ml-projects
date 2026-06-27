@@ -50,6 +50,7 @@ using Python and scikit-learn.
 - Algorithm: Random Forest Classifier
 - Accuracy: 97.9%
 - Tools: Python, Pandas, NumPy, scikit-learn
+- Kaggle Public Score: 78.4%
 
 
 ## Skills Used
