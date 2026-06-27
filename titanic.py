@@ -28,7 +28,11 @@ from sklearn.metrics import accuracy_score
 x = df.drop('Survived',axis = 1)
 y = df['Survived']
 
-model = RandomForestClassifier()
+model = RandomForestClassifier(
+    n_estimators=200,    # more trees
+    max_depth=6,         # limit tree depth to avoid overfitting
+    random_state=42      # consistent results
+)
 model.fit(x,y)
 print("Accuracy:", accuracy_score(y, model.predict(x)))
 # New passenger: 
@@ -49,3 +53,30 @@ if prediction2[0] == 1:
     print("Passenger Survived ✅")
 else:
     print("Passenger Did Not Survive ❌")
+
+# Load test data
+test_df = pd.read_csv("test.csv")
+
+# Save PassengerId before dropping
+passenger_ids = test_df['PassengerId']
+
+# Same cleaning as training data
+test_df = test_df.drop(['PassengerId', 'Name', 'Ticket', 'Cabin'], axis=1)
+test_df['Age'] = test_df['Age'].fillna(test_df['Age'].median())
+test_df['Fare'] = test_df['Fare'].fillna(test_df['Fare'].median())
+test_df['Embarked'] = test_df['Embarked'].fillna(test_df['Embarked'].mode()[0])
+test_df['Sex'] = test_df['Sex'].map({'male': 0, 'female': 1})
+test_df['Embarked'] = test_df['Embarked'].map({'S': 0, 'C': 1, 'Q': 2})
+
+# Predict
+predictions = model.predict(test_df)
+
+# Create submission file
+submission = pd.DataFrame({
+    'PassengerId': passenger_ids,
+    'Survived': predictions
+})
+
+submission.to_csv("submission.csv", index=False)
+print("Submission file created!")
+print(submission.head())
