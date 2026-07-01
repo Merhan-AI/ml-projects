@@ -52,6 +52,12 @@ using Python and scikit-learn.
 - Tools: Python, Pandas, NumPy, scikit-learn
 - Kaggle Public Score: 78.4%
 
+### 8. Customer Segmentation — K-Means Clustering
+- Groups customers by age and spending score
+- Algorithm: K-Means Clustering (Unsupervised Learning)
+- Found 3 natural customer segments automatically
+- Tools: Python, NumPy, scikit-learn
+
 
 ## Skills Used
 - Python
