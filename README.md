@@ -35,14 +35,14 @@ using Python and scikit-learn.
 - Algorithm: K-Nearest Neighbors (K=5)
 - Tools: Python, NumPy, scikit-learn
 
-### 6. Loan Approval Prediction — SVM
+### 6. Loan Approval Prediction (SVM)
 - Predicts whether a loan gets approved or rejected
 - Based on income and credit score
 - Algorithm: Support Vector Machine (SVC)
 - Draws best separating line between classes
 - Tools: Python, NumPy, scikit-learn
 
-### 7. Titanic Survival Prediction — Random Forest
+### 7. Titanic Survival Prediction (Random Forest)
 - Predicts whether a Titanic passenger survived or not
 - Real world dataset: 891 passengers
 - Data preprocessing: handled missing values, 
@@ -52,7 +52,7 @@ using Python and scikit-learn.
 - Tools: Python, Pandas, NumPy, scikit-learn
 - Kaggle Public Score: 78.4%
 
-### 8. Customer Segmentation — K-Means Clustering
+### 8. Customer Segmentation (K-Means Clustering)
 - Groups customers by age and spending score
 - Algorithm: K-Means Clustering (Unsupervised Learning)
 - Found 3 natural customer segments automatically
