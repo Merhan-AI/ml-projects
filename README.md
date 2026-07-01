@@ -29,7 +29,7 @@ using Python and scikit-learn.
 - Ensemble of 100 Decision Trees
 - Tools: Python, NumPy, scikit-learn
 
-### 5. Movie Preference Prediction — KNN
+### 5. Movie Preference Prediction (KNN)
 - Predicts whether a person likes Action or Romance
 - Based on age and TV hours watched per day
 - Algorithm: K-Nearest Neighbors (K=5)
