@@ -5,7 +5,7 @@ using Python and scikit-learn.
 
 ## Projects
 
-### 1. Salary Prediction — Linear Regression
+### 1. Salary Prediction (Linear Regression)
 - Predicts salary based on years of experience
 - Algorithm: Linear Regression
 - Tools: Python, NumPy, scikit-learn
