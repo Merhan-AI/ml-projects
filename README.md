@@ -22,7 +22,7 @@ using Python and scikit-learn.
 - Algorithm: Decision Tree Classifier
 - Tools: Python, NumPy, scikit-learn
   
-### 4. Loan Approval Prediction — Random Forest
+### 4. Loan Approval Prediction (Random Forest)
 - Predicts whether a loan gets approved or rejected
 - Based on income and credit score
 - Algorithm: Random Forest Classifier
